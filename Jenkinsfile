@@ -3,8 +3,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'python --version'
-                sh 'mkdir /tmp/jenkinsbuild'
+                sh 'javac HelloWorld.java'
+                sh 'java HelloWorld'
             }
         }
     }
