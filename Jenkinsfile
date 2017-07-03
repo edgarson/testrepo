@@ -5,6 +5,7 @@ pipeline {
             steps {
                 sh 'javac HelloWorld.java'
                 sh 'java HelloWorld'
+                sh 'ls'
             }
         }
     }
